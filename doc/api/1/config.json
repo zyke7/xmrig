@@ -12,27 +12,29 @@
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": null,
-    "donate-level": 5,
+    "donate-level": 0,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
     "max-cpu-usage": 75,
     "pools": [
         {
-            "url": "pool.monero.hashvault.pro:3333",
-            "user": "48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD",
-            "pass": "x",
-            "keepalive": false,
+            "algo": null,
+            "coin": null,
+            "url": "gulf.moneroocean.stream:10128",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn+128000",
+            "pass": "test_worker",
+            "rig-id": null,
             "nicehash": false,
-            "variant": -1
-        },
-        {
-            "url": "pool.supportxmr.com:3333",
-            "user": "48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD",
-            "pass": "x",
             "keepalive": false,
-            "nicehash": false,
-            "variant": -1
+            "enabled": true,
+            "tls": false,
+            "sni": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
         }
     ],
     "print-time": 60,
