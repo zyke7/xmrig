@@ -1,9 +1,11 @@
 name: Build and Push (aarch64)
 
 on:
-  push:
-    branches:
-      - zdevelop
+  # Disable Workflow
+  workflow_dispatch: 
+  # push:
+  #   branches:
+  #     - zdevelop
 
 jobs:
   build:

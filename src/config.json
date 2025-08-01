@@ -75,7 +75,7 @@
     "retry-pause": 5,
     "syslog": false,
     "tls": {
-        "enabled": true
+        "enabled": false
     },
     "dns": {
         "ip_version": 0,
