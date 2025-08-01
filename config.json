@@ -1,0 +1,98 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 5000,
+        "access-token": "xos",
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": true,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": true,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": null,
+        "priority": 2,
+        "memory-pool": false,
+        "yield": false,
+        "max-threads-hint": 100,
+        "asm": true,
+        "argon2-impl": null,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "opencl": {
+        "enabled": false
+    },
+    "cuda": {
+        "enabled": false
+    },
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "gulf.moneroocean.stream:10128",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
+            "pass": "test_worker",
+            "rig-id": null,
+            "tls": false,
+            "enabled": true,
+            "keepalive": true
+        },
+        {
+            "url": "gulf.moneroocean.stream:3333",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
+            "pass": "test_worker",
+            "rig-id": null,
+            "tls": false,
+            "enabled": true,
+            "keepalive": true
+        },
+        {
+            "url": "gulf.moneroocean.stream:443",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
+            "pass": "test_worker",
+            "rig-id": null,
+            "tls": true,
+            "enabled": true,
+            "keepalive": true
+        }
+    ],
+    "print-time": 30,
+    "health-print-time": 60,
+    "dmi": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "tls": {
+        "enabled": false
+    },
+    "dns": {
+        "ip_version": 0,
+        "ttl": 30
+    },
+    "user-agent": "xmrig-custom",
+    "verbose": 0,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
