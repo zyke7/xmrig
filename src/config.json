@@ -50,22 +50,31 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
             "url": "gulf.moneroocean.stream:10128",
             "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
             "pass": "test_worker",
             "rig-id": null,
-            "nicehash": false,
-            "keepalive": true,
+            "tls": false,
             "enabled": true,
+            "keepalive": true
+        },
+        {
+            "url": "gulf.moneroocean.stream:3333",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
+            "pass": "test_worker",
+            "rig-id": null,
+            "tls": false,
+            "enabled": true,
+            "keepalive": true
+        },
+        {
+            "url": "gulf.moneroocean.stream:443",
+            "user": "44YX31cZPtX2uVqbYRHqeZcXYxPxeSzYajUXH9LSzgEVd8CLbRaeAtk215PxitafCLXeNkoWN484phJV1oUa4kWbReWXPUn",
+            "pass": "test_worker",
+            "rig-id": null,
             "tls": true,
-            "sni": true,
-            "tls-fingerprint": null,
-            "daemon": false,
-            "socks5": null,
-            "self-select": null,
-            "submit-to-origin": false
+            "enabled": true,
+            "keepalive": true
         }
     ],
     "print-time": 30,
